@@ -26,7 +26,7 @@ function App() {
 
   return (
     <ColorProvider value={{ colorState, setColor}}>
-      <Router basename="/frontend-tailorapp">
+      <Router basename="/">
         <ObserverElement />
         <Navbar />
         <Routes>

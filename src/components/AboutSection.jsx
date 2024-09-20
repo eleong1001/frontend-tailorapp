@@ -21,7 +21,7 @@ function AboutSection() {
         To contact me, view the icons in the footer to connect on Instagram, Gmail, or Linkedin.
       </div>
       <div className="about-img-container">
-        <img src="images/about-card-img.jpg" alt="about photo" />
+        <img src={import.meta.env.BASE_URL + "images/about-card-img.jpg"} alt="about photo" />
       </div>
     </div>
   )

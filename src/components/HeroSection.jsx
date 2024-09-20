@@ -25,7 +25,7 @@ function HeroSection() {
       </div>
       <div className="right-column">
         <div className="hero-window">
-          <img src='/images/RedwoodHeroPhoto.png' alt='Hero picture' />
+          <img src='images/RedwoodHeroPhoto.png' alt='Hero picture' />
         </div>
       </div>
       

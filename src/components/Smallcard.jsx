@@ -12,7 +12,7 @@ function Smallcard() {
       <div className='logoCards'>
         <div className="card-container hidden">
           <div className="playingCard first-img">
-          <img src="/images/waist-jean-clear.svg" alt="pant waist photo"/>
+          <img src="images/waist-jean-clear.svg" alt="pant waist photo"/>
           </div>
 
           <div className="card-label">
@@ -21,7 +21,7 @@ function Smallcard() {
         </div>
         <div className="card-container hidden">
           <div className="playingCard second-img">
-            <img src="/images/waist-clear.png" alt="pant waist photo"/>
+            <img src="images/waist-clear.png" alt="pant waist photo"/>
           </div>
           <div className="card-label">
             Waist Adjustment
@@ -29,7 +29,7 @@ function Smallcard() {
         </div>
         <div className="card-container hidden">
           <div className="playingCard third-img ">
-            <img src="/images/shirt-crop.jpg" alt="shirt" />
+            <img src="images/shirt-crop.jpg" alt="shirt" />
           </div>
           <div className="card-label">
             Shirt Cropping
@@ -37,7 +37,7 @@ function Smallcard() {
         </div>
         <div className="card-container hidden">
           <div className="playingCard fourth-img">
-            <img src="/images/dress-shirt.jpg" alt="shirt" />
+            <img src="images/dress-shirt.jpg" alt="shirt" />
           </div>
           <div className="card-label">
             Dress Shirt Tailoring

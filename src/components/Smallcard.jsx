@@ -6,10 +6,9 @@ import '../App.css'
 function Smallcard() {
   return (
     <>
-      <div className='smallcard-heading'>
+      {/* <div className='smallcard-heading'>
         <div className='heading-text'>Our Services Include</div>
-        
-      </div>
+      </div> */}
       <div className='logoCards'>
         <div className="card-container hidden">
           <div className="playingCard first-img">

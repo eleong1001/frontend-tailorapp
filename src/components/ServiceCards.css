@@ -4,33 +4,15 @@
   'text1 text2'
   'custom custom';
   grid-template-columns: 1fr 1fr;
-
+  padding-bottom: 30px;
+  background-color: #AD5D4E;
 }
 
 .service-card-columns{
   padding: 20px 10px 20px 0px; 
-  background-color: #AD5D4E;
   color: #F6E8D5;
 }
 
-.service-custom{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-  background-color: #AD5D4E;
-  color: #F6E8D5;
-  grid-area: custom;
-  text-align: center;
-  padding: 50px 30px 70px;
-  
-}
-
-
-.service-custom-text{
-  display: flex;
-  justify-self: center;
-  width: 50%;
-}
 
 
 .text-column {
@@ -48,6 +30,7 @@
 .service-card-container h1{
   font-family: "Archivo Black", sans-serif;
   font-size: 50px;
+  padding-bottom: 10px;
 }
 
 .service-card-columns ul{
@@ -78,7 +61,8 @@
     grid-template-areas: 
   'text1'
   'text2'
-  'custom';
+  'text3'
+  'text4';
 
     grid-template-columns: 1fr;
   }

@@ -26,13 +26,12 @@ function App() {
 
   return (
     <ColorProvider value={{ colorState, setColor}}>
-      <Router>
+      <Router basename="/frontend-tailorapp">
         <ObserverElement />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/services' element={<Services/>} />
-          {/* <Route path='/projects' element={<Projects/>} /> */}
           <Route path='/sign-up' element={<SignUp/>} />
           <Route path='/about' element={<About/>} />
         </Routes>

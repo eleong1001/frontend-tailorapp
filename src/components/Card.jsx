@@ -10,14 +10,14 @@ function Card() {
           <div className="cards__wrapper">
             <ul className="cards__items">
               <Carditem 
-              src="images/sewingmachine.png"
+              src="/images/sewingmachine.png"
               text="Discover our modern alteration services and inexpensive pricing"
               label="Services"
               path='/services'
               className='leftcard'
               />
               <Carditem 
-              src="images/canva-shirt.png"
+              src="/images/canva-shirt.png"
               text="Find out more about re:tel and our mission"
               label="Projects"
               path='/about'

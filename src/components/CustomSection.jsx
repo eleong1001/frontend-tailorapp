@@ -29,7 +29,7 @@ function CustomSection() {
       </div>
       
       <div className="custom-img">
-        <img src="../images/jorts-custom.png" alt="alt" />
+        <img src="/images/jorts-custom.png" alt="alt" />
       </div> 
     </div>
     
